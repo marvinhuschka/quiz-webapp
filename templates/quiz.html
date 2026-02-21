@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <title>Quiz</title>
+</head>
+<body>
+  <h1>Frage {{ idx + 1 }} / {{ total }}</h1>
+  <p>Punkte: {{ punkte }}</p>
+
+  <h2>{{ frage["frage"] }}</h2>
+
+  {% if feedback %}
+    <p><strong>{{ feedback[0] }}</strong></p>
+  {% endif %}
+
+  <form method="post" action="/answer">
+    {% for key in ["a","b","c","d"] %}
+      <label style="display:block; margin:8px 0;">
+        <input type="radio" name="antwort" value="{{ key }}" required>
+        <strong>{{ key }})</strong> {{ frage["optionen"][key] }}
+      </label>
+    {% endfor %}
+    <button type="submit">Antwort abschicken</button>
+  </form>
+</body>
+</html>

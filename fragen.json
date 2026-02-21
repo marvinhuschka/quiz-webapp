@@ -1,0 +1,102 @@
+[
+    {
+        "frage": "Wie viele Kontinente gibt es auf der Erde?",
+        "optionen": {
+            "a": "5",
+            "b": "6",
+            "c": "7",
+            "d": "8"
+        },
+        "richtig": "c"
+    },
+    {
+        "frage": "Welche Sprache läuft im Browser?",
+        "optionen": {
+            "a": "Python",
+            "b": "Java",
+            "c": "JavaScript",
+            "d": "C++"
+        },
+        "richtig": "c"
+    },
+    {
+        "frage": "Wie viele Planeten hat unser Sonnensystem?",
+        "optionen": {
+            "a": "7",
+            "b": "8",
+            "c": "9",
+            "d": "10"
+        },
+        "richtig": "b"
+    },
+    {
+        "frage": "Welches Element hat das chemische Symbol O?",
+        "optionen": {
+            "a": "Gold",
+            "b": "Sauerstoff",
+            "c": "Silber",
+            "d": "Osmium"
+        },
+        "richtig": "b"
+    },
+    {
+        "frage": "Wie heißt die Hauptstadt von Frankreich?",
+        "optionen": {
+            "a": "Madrid",
+            "b": "Rom",
+            "c": "Paris",
+            "d": "Berlin"
+        },
+        "richtig": "c"
+    },
+    {
+        "frage": "Wie viele Bits sind ein Byte?",
+        "optionen": {
+            "a": "4",
+            "b": "8",
+            "c": "16",
+            "d": "32"
+        },
+        "richtig": "b"
+    },
+    {
+        "frage": "Welches Tier ist das größte Landsäugetier?",
+        "optionen": {
+            "a": "Giraffe",
+            "b": "Elefant",
+            "c": "Nashorn",
+            "d": "Nilpferd"
+        },
+        "richtig": "b"
+    },
+    {
+        "frage": "Wer entwickelte die Relativitätstheorie?",
+        "optionen": {
+            "a": "Isaac Newton",
+            "b": "Nikola Tesla",
+            "c": "Albert Einstein",
+            "d": "Galileo Galilei"
+        },
+        "richtig": "c"
+    },
+    {
+        "frage": "Wie viele Bundesländer hat Deutschland?",
+        "optionen": {
+            "a": "14",
+            "b": "15",
+            "c": "16",
+            "d": "17"
+        },
+        "richtig": "c"
+    },
+    {
+        "frage": "Welche Programmiersprache verwenden wir gerade für das Backend?",
+        "optionen": {
+            "a": "Python",
+            "b": "PHP",
+            "c": "C#",
+            "d": "Go"
+        },
+        "richtig": "a"
+    }
+]
